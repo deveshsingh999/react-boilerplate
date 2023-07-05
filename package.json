@@ -1,0 +1,33 @@
+{
+  "name": "devesh-create-react-boilerplate",
+  "version": "1.0.1",
+  "description": "react boilerplate",
+  "main": "index.js",
+  "bin":"./bin/cli.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "author": "Devesh Pal Singh <deveshps@dewsolutions.in>",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.14.1",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
